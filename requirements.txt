@@ -1,0 +1,18 @@
+# DEEPFUSE-CS — Python dependencies (v2)
+#
+# On Jetson Orin Nano, prefer NVIDIA's pre-built wheels for torch,
+# OpenCV, and TensorRT rather than PyPI.
+
+numpy>=1.24
+opencv-python>=4.8
+pyserial>=3.5
+
+# RF — needed unless --no-rf is passed
+pyadi-iio>=0.0.16
+
+# Model — needed unless TensorRT .engine is supplied
+torch>=2.1
+
+# For export_to_tensorrt.py on the Jetson (not needed on dev machines):
+# tensorrt                      # preinstalled by NVIDIA on Jetpack
+# pycuda                        # preinstalled by NVIDIA on Jetpack
