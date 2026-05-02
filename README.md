@@ -14,7 +14,7 @@ DeepFuse-CS is a senior capstone project at King Fahd University of Petroleum an
        Save it to assets/hud.png and uncomment the line below.
   ![HUD](assets/hud.png)
 -->
-
+![HUD](hud_threat.png)
 ---
 
 ## Highlights
